@@ -5,11 +5,24 @@
 }
 
 main{
-    background-color: red;
     height: calc(100vh - 100px);
+    counter-increment: auto;
+    display: flex;
 }
 
 footer{
     background-color: green;
     height: 100px;
+}
+
+aside{
+    background-color: yellow;
+    width: 30%;
+    height: 100%;
+}
+
+.container{
+    background-color: blue;
+    height: 100%;
+    width: 70%;
 }
