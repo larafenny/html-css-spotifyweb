@@ -8,6 +8,7 @@ main{
     height: calc(100vh - 100px);
     counter-increment: auto;
     display: flex;
+
 }
 
 
@@ -18,9 +19,21 @@ aside{
     height: 100%;
     color: hsl(0deg 0% 42%);
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
+.upp-container{
+
+}
+
+.down-container
+
+
 #logo{
+    padding-top: 20px;
     width: 50%;
 }
 
@@ -35,11 +48,11 @@ li{
 }
 
 ul img{
-    width:10%;
+    width: 20px;
 }
 
 .download-app img, .user img{
-    width:10%;
+    width: 20px;
 }
 
 .container{
