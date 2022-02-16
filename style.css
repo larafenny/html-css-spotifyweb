@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main{
@@ -9,7 +10,7 @@ main{
     overflow: hidden;
     counter-increment: auto;
     display: flex;
-    font-family: 'Montserrat', sans-serif;
+    
     
 }
 
@@ -194,11 +195,60 @@ footer{
 /********* CENTRAL NAV FOOTER *********/
 
 .central-nav-footer{
-    background-color: yellow;
     width: 50%;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.play-player{
+    width: 30px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.play-player i{
+    font-size: 50px;
+    text-align: center;
+}
+
+.control i{
+    padding: 0 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar .container-bar{
+    width: 80%;
+    height: 3px;
+    background-color: hsl(0deg 0% 35%);
+    border-radius: 10px;
+
+}
+
+.bar .progression-bar{
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+
+}
 
 /********* RIGHT NAV FOOTER *********/
 
