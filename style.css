@@ -33,11 +33,7 @@ aside{
 
 .down-container{
     padding-bottom: 10px;
-    background-color: green;
 }
-
-
-
 
 #logo{
     padding: 20px 0;
@@ -94,6 +90,22 @@ ul img{
 
 .download-app img, .user img{
     width: 20px;
+    align-items: center;
+}
+
+.download-app{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.download-app a{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+}
+
+.download-app p{
+    padding-left: 10px;
 }
 
 .container{
@@ -109,11 +121,15 @@ ul img{
     text-align: center;
 }
 
-.user{
+.user a{
     display: flex;
     align-items: center;
     color: white;
     font-size: 14px;
+}
+
+.user p{
+    padding-left: 10px;
 }
 /******************** PRINCIPAL CONTAINER ********************/
 
