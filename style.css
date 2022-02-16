@@ -5,20 +5,25 @@
 }
 
 main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
+    overflow: hidden;
     counter-increment: auto;
     display: flex;
     font-family: 'Montserrat', sans-serif;
-
-
+    
 }
 
+body{
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+}
 
 /******************** LEFT SIDEBAR ********************/
 
 aside{
     background-color: black;
-    width: 30%;
+    width: 25%;
     height: 100%;
     color: hsl(0deg 0% 42%);
     padding-left: 20px;
@@ -104,12 +109,6 @@ ul img{
     padding-left: 10px;
 }
 
-.container{
-    background-color: hsl(219deg 26% 11%);
-    height: 100%;
-    width: 70%;
-}
-
 .user-icon{
     background-color: hsl(0deg 0% 50%);
     width: 28px;
@@ -129,31 +128,74 @@ ul img{
 }
 /******************** PRINCIPAL CONTAINER ********************/
 
-
+.container{
+    background-color: hsl(219deg 26% 11%);
+    height: 100%;
+    width: 75%;
+}
 
 
 /******************** FOOTER ********************/
 
 footer{
     background-color: hsl(0deg 0% 16%);
-    height: 100px;
-    display: flex;
+    height: 80px;
 }
 
 .left-nav-footer{
-    background-color: yellow;
-    width: 20%;
+    width: 25%;
     height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.song{
+    padding: 20px 10px;
+    display: flex;
+}
+
+.song img{
+    background-color: blue;
+    height: 100%;
+}
+
+.info-song{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    color: white;
+}
+
+.info-song h2{
+    font-size: 16px;
+}
+
+.info-song h3{
+    font-size: 12px;
+    color: hsl(0deg 0% 50%);
+    font-weight: 500;
+}
+
+.song-icon{
+    display: flex;
+    align-items: center;
+}
+
+.song-icon i{
+    padding: 0 5px;
+    font-size: 18px;
+    color: hsl(0deg 0% 50%);
 }
 
 .central-nav-footer{
     background-color: red;
-    width: 60%;
+    width: 50%;
     height: 100%;
 }
 
 .right-nav-footer{
     background-color: blue;
-    width: 20%;
+    width: 25%;
     height: 100%;
 }
+
