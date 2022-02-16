@@ -14,6 +14,7 @@ main{
 }
 
 
+/******************** LEFT SIDEBAR ********************/
 
 aside{
     background-color: black;
@@ -32,8 +33,9 @@ aside{
 }
 
 .down-container{
-
+    padding-bottom: 10px;
 }
+
 
 
 #logo{
@@ -48,7 +50,6 @@ ul{
 
 li{
     padding: 5px 0px;
-
 }
 
 ul img{
@@ -66,6 +67,23 @@ ul img{
     padding: 15px 0
 }
 
+.new-playlist {
+    display: flex;
+    align-items: center;
+}
+
+.new-playlist h3{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.plus{
+    background-color: hsl(0deg 0% 64%);
+    padding: 0px 9px;
+    font-size: 30px;
+    color: black;
+}
+
 
 .download-app img, .user img{
     width: 20px;
@@ -76,6 +94,13 @@ ul img{
     height: 100%;
     width: 70%;
 }
+
+/******************** PRINCIPAL CONTAINER ********************/
+
+
+
+
+/******************** FOOTER ********************/
 
 footer{
     background-color: hsl(0deg 0% 16%);
