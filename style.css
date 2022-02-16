@@ -25,16 +25,17 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
-.upp-container{
+.up-container{
 
 }
 
 .down-container{
     padding-bottom: 10px;
+    background-color: green;
 }
+
 
 
 
@@ -46,6 +47,12 @@ aside{
 ul{
     list-style-type: none;
     padding: 15px 0px;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px 0px;
+    color: hsl(0deg 0% 42%);
 }
 
 li{
@@ -67,7 +74,7 @@ ul img{
     padding: 15px 0
 }
 
-.new-playlist {
+.new-playlist a{
     display: flex;
     align-items: center;
 }
@@ -95,6 +102,19 @@ ul img{
     width: 70%;
 }
 
+.user-icon{
+    background-color: hsl(0deg 0% 50%);
+    width: 28px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
 /******************** PRINCIPAL CONTAINER ********************/
 
 
