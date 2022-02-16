@@ -16,7 +16,30 @@ aside{
     background-color: black;
     width: 30%;
     height: 100%;
-    color: hsl(0deg 0% 42%)
+    color: hsl(0deg 0% 42%);
+    padding-left: 20px;
+}
+
+#logo{
+    width: 50%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 15px 0px;
+}
+
+li{
+    padding: 5px 0px;
+
+}
+
+ul img{
+    width:10%;
+}
+
+.download-app img, .user img{
+    width:10%;
 }
 
 .container{
