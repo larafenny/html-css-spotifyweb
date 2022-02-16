@@ -271,21 +271,39 @@ footer{
     align-items: center;
 }
 
-.control-icon i{
+.control-icon {
     display: flex;
+    color: white;
+    font-size: 12px;
 }
-.bar .volume-bar{
+
+.control-icon i{
     width: 30%;
+    padding: 0 5px;
+}
+
+.container-volume-bar{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    align-items: center;
+}
+
+.container-volume-bar .volume-bar{
+    width: 80%;
     height: 3px;
     background-color: hsl(0deg 0% 35%);
     border-radius: 10px;
 }
 
-.bar .progression-bar{
+.container-volume-bar .progression-bar{
     width: 30%;
     height: 3px;
     background-color: white;
     border-radius: 10px;
 }
+
 
 
