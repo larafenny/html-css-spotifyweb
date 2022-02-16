@@ -27,10 +27,6 @@ aside{
     justify-content: space-between;
 }
 
-.up-container{
-
-}
-
 .down-container{
     padding-bottom: 10px;
 }
@@ -141,4 +137,23 @@ ul img{
 footer{
     background-color: hsl(0deg 0% 16%);
     height: 100px;
+    display: flex;
+}
+
+.left-nav-footer{
+    background-color: yellow;
+    width: 20%;
+    height: 100%;
+}
+
+.central-nav-footer{
+    background-color: red;
+    width: 60%;
+    height: 100%;
+}
+
+.right-nav-footer{
+    background-color: blue;
+    width: 20%;
+    height: 100%;
 }
