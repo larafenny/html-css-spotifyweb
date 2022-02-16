@@ -135,6 +135,21 @@ ul img{
     width: 75%;
 }
 
+.main-header{
+    background-color: hsl(227deg 33% 5%);
+    height: 10%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-header a{
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 25px
+}
 
 /******************** FOOTER ********************/
 
