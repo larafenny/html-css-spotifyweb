@@ -8,6 +8,8 @@ main{
     height: calc(100vh - 100px);
     counter-increment: auto;
     display: flex;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -29,12 +31,14 @@ aside{
 
 }
 
-.down-container
+.down-container{
+
+}
 
 
 #logo{
-    padding-top: 20px;
-    width: 50%;
+    padding: 20px 0;
+    width: 60%;
 }
 
 ul{
@@ -50,6 +54,18 @@ li{
 ul img{
     width: 20px;
 }
+
+.playlist-container{
+    font-size: 14px;
+}
+
+.playlist-container h2{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 0
+}
+
 
 .download-app img, .user img{
     width: 20px;
