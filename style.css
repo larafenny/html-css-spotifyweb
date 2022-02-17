@@ -149,6 +149,7 @@ ul img{
     border: 1px solid white;
     border-radius: 50px;
     padding: 10px 25px;
+    
 }
 
 .main-header a:hover{
@@ -163,6 +164,11 @@ ul img{
     font-size: 12px;
     justify-content: space-around;
 }
+
+.category-nav a:hover{    
+    color: white;
+}
+
 
 .song-container{
     height: 100%;
