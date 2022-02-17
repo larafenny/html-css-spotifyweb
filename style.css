@@ -322,19 +322,24 @@ footer{
     width: 100%;
 }
 
-.play-player{
-    width: 30px;
-    height: 30px;
+.control .play-player{
+    width: 35px;
+    height: 35px;
     border: 3px solid white;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.play-player i{
+.control .play-player a{
     font-size: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.play-player:hover{
+.control. .play-player:hover{
     transform: scale(1.1);
 }
 
