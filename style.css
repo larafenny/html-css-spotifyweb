@@ -181,8 +181,13 @@ h1{
     justify-content: space-between;
 }
 
+.container-createdfor{
+    width: 100%;;
+}
+
 .created-for{
     justify-content: flex-start;
+    width: 100%;
 }
 
 .main-song{
@@ -196,10 +201,16 @@ h1{
     width: 100%;
 }
 
-.song-container h1{
+.container-recently h1{
     font-size: 20px;
     font-weight: bolder;
     padding-bottom: 20px;
+}
+
+.container-createdfor h1{
+    font-size: 20px;
+    font-weight: bolder;
+    
 }
 
 .song-container h3{
