@@ -151,6 +151,10 @@ ul img{
     padding: 10px 25px;
 }
 
+.main-header a:hover{
+    transform: scale(1.1);
+}
+
 .category-nav{
     padding: 0 15%;
 }
