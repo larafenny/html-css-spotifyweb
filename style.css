@@ -334,6 +334,10 @@ footer{
     text-align: center;
 }
 
+.play-player:hover{
+    transform: scale(1.1);
+}
+
 .control i{
     padding: 0 10px;
     font-size: 18px;
