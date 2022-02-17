@@ -424,5 +424,8 @@ footer{
     border-radius: 10px;
 }
 
+.container-volume-bar:hover .progression-bar{
+    background-color:hsl(79deg 81% 66%);
+}
 
 
