@@ -365,12 +365,15 @@ footer{
     padding-left:20px;
 }
 
-
 .bar .progression-bar{
     width: 30%;
     height: 3px;
     background-color: white;
     border-radius: 10px;
+}
+
+.bar .progression-bar:hover{
+    background-color:hsl(79deg 81% 66%);
 }
 
 /********* RIGHT NAV FOOTER *********/
