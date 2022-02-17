@@ -129,7 +129,7 @@ ul img{
 }
 /******************** PRINCIPAL CONTAINER ********************/
 
-.container{
+.main-content{
     background-color: hsl(219deg 26% 11%);
     height: 100%;
     width: 75%;
@@ -148,8 +148,19 @@ ul img{
     font-size: 14px;
     border: 1px solid white;
     border-radius: 50px;
-    padding: 10px 25px
+    padding: 10px 25px;
 }
+
+.category-nav{
+    padding: 0 15%;
+}
+.category-nav ul{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+
 
 /******************** FOOTER ********************/
 
